@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #d35400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    width: 1000px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    font-size:20px;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+#temp{
+    font-size: 20px;
+    color: white;
+}
